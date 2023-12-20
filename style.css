@@ -33,15 +33,18 @@ nav li {
 }
 
 a {
-    text-decoration: none;
     color: #d3d3d3;
     font-weight: bold;
 }
 
+header nav ul li a {
+    text-decoration: none;
+}
+
+
 h1.heading {
     text-align: center;
     text-transform: uppercase;
-    font-size: 30px;
     font-weight: bold;
 }
 
@@ -60,24 +63,51 @@ p {
     width: auto;
 }
 
-article.a {
-    display: inline;
-    width: auto;
-    align-items: baseline;
+table.center {
+    margin-right: auto;
+    margin-left: auto;
+}
+table {
+    background-color: #404040;
+}
+
+table.ani {
+    width: 100%;
+    background-color: #404040;
+}
+table, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+}
+tr.ani {
+    transition: transform ease 0.1s;
+}
+
+tr.ani:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transform: translate(-1px, -1px);
 }
 
 article {
     background-color: #404040;
     border-radius: 10px;
     padding: 1px 10px;
-    display: inline-block;
-    transition: transform ease 0.1s;
-    position: relative;
+    display: block;
+    transition: transform ease 0.5s;
+}
+
+article.a {
+    display: inline;
+    width: auto;
+    align-items: baseline;
+}
+
+article:not(:last-of-type) {
+    margin-bottom: 20px;
 }
 
 article:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-    transform: translate(-1px, -1px);
+    background-color: #3e3e3e;
 }
 
 @font-face {
