@@ -18,23 +18,24 @@ body {
 
 #container {
     margin: auto;
-    max-width: 70%;
+    max-width: 1000px;
+    width: 100%;
 }
 
 header {
-    padding: 20px;
+    padding: 5px;
+    text-align: center;
 }
 
 
 nav ul {
     list-style: none;
-    margin: 0;
-    padding: 20px;
+    padding: 10px;
 }
 
 nav li {
     display: inline-block;
-    margin-right: 20px;
+    margin: 8px;
 }
 
 a {
@@ -79,8 +80,10 @@ tr.ani:hover {
 
 article {
     background-color: #404040;
-    border-radius: 10px;
-    padding: 1px 10px;
+    border-radius: 16px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin: 1%;
     display: block;
     transition: transform ease 0.5s;
 }
@@ -92,7 +95,7 @@ article.a {
 }
 
 article:not(:last-of-type) {
-    margin-bottom: 20px;
+    margin-bottom: 6px;
 }
 
 article:hover {
