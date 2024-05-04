@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "Commit Mono";
+    src: url("../fonts/CommitMono-VariableFont.woff2");
+    font-weight: 450;
+}
+
+@font-face {
+    font-family: "IBM Plex Mono";
+    src: url("../fonts/IBMPlexMono-Regular.ttf");
+}
+
+body {
+    font-family: "Commit Mono";
+    text-align: left;
+    background-color: #212222;
+    margin: auto;
+    max-width: 70%;
+}
+table.center {
+    margin-right: auto;
+    margin-left: auto;
+}
+table, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+}
+table.mono { /* I had an idea. It didn't work */
+    table-layout: fixed;
+    width: 100%;
+}
+
+code {
+    font-family: "IBM Plex Mono";
+    color: #00B3B3;
+    background-color: #1c1f1f;
+    border: 1px 1px;
+    margin: 5px 5px;
+}
+
+.codeblock {
+    font-family: "IBM Plex Mono";
+    display: block;
+    box-sizing: border-box;
+    color: #00B3B3;
+    background-color: #1c1f1f;
+    padding: 1px 1px;
+}
+
+blockquote {
+    border-left: 3px solid #d0d0d2;
+    color: #d0d0d0;
+    padding: 0px 5px;
+    margin: auto;
+}
+
+blockquote.quote {
+    border-radius: 5px;
+}

@@ -1,0 +1,110 @@
+@font-face {
+    font-family: "Commit Mono";
+    src: url("../fonts/CommitMono-VariableFont.woff2");
+    font-weight: 450;
+}
+
+@font-face {
+    font-family: "IBM Plex Mono";
+    src: url("../fonts/IBMPlexMono-Regular.ttf");
+}
+
+body {
+    font-family: "Commit Mono";
+    text-align: center;
+    background-color: #212222;
+    color: #b1b3b4;
+    margin: auto;
+}
+
+#container {
+    margin: auto;
+    max-width: 1000px;
+    width: 100%;
+}
+
+header {
+    padding: 5px;
+    text-align: center;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 10px;
+}
+
+nav li {
+    display: inline-block;
+    margin: 8px;
+}
+
+a {
+    color: #d3d3d3;
+    font-weight: bold;
+}
+
+header nav ul li a {
+    text-decoration: none;
+}
+
+
+h1.heading {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.read-more {
+    display: block;
+    padding: 1px 2px;
+}
+
+footer {
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.important {
+  font-weight: bold;
+  color: red;
+}
+
+
+tr.ani {
+    transition: transform ease 0.1s;
+}
+
+tr.ani:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transform: translate(-1px, -1px);
+}
+
+article {
+    background-color: #404040;
+    border-radius: 16px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin: 1%;
+    display: block;
+    transition: transform ease 0.5s;
+}
+
+article.a {
+    display: inline;
+    width: auto;
+    align-items: baseline;
+}
+
+article:not(:last-of-type) {
+    margin-bottom: 6px;
+}
+
+article:hover {
+    background-color: #3e3e3e;
+}
+
+code {
+    font-family: "IBM Plex Mono";
+}
