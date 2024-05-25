@@ -25,7 +25,7 @@ table.mono { /* I had an idea. It didn't work */
 }
 
 code {
-    font-family: "IBM Plex Mono";
+    font-family: "IBM Plex Mono", monospace;
     color: #00B3B3;
     background-color: #1c1f1f;
     border: 1px 1px;
@@ -33,7 +33,7 @@ code {
 }
 
 .codeblock {
-    font-family: "IBM Plex Mono";
+    font-family: "IBM Plex Mono", monospace;
     display: block;
     box-sizing: border-box;
     color: #00B3B3;

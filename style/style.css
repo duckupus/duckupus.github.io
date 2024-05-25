@@ -10,7 +10,7 @@
 }
 
 body {
-    font-family: "Commit Mono";
+    font-family: "Commit Mono", monospace;
     text-align: center;
     background-color: #212222;
     color: #b1b3b4;
@@ -106,5 +106,5 @@ article:hover {
 }
 
 code {
-    font-family: "IBM Plex Mono";
+    font-family: "IBM Plex Mono", monospace;
 }
