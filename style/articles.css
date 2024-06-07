@@ -16,7 +16,6 @@ table.center {
 }
 table, th, td {
     border: 1px #999 solid;
-    margin: 0 auto;
     border-collapse: collapse;
 }
 table.mono { /* I had an idea. It didn't work */
@@ -28,8 +27,6 @@ code {
     font-family: "IBM Plex Mono", monospace;
     color: #00B3B3;
     background-color: #1c1f1f;
-    border: 1px 1px;
-    margin: 5px 5px;
 }
 
 .codeblock {
@@ -45,9 +42,6 @@ blockquote {
     border-left: 3px solid #d0d0d2;
     color: #d0d0d0;
     padding: 0px 5px;
-    margin: auto;
-}
-
-blockquote.quote {
     border-radius: 5px;
+    margin: auto;
 }

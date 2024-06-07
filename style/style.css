@@ -98,7 +98,7 @@ article.a {
 }
 
 article:not(:last-of-type) {
-    margin-bottom: 6px;
+    margin-bottom: 9px;
 }
 
 article:hover {
