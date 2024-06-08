@@ -39,9 +39,9 @@ code {
 }
 
 blockquote {
-    border-left: 3px solid #d0d0d2;
-    color: #d0d0d0;
-    padding: 0px 5px;
-    border-radius: 5px;
+    border-left: 2px solid #d8d8da;
+    color: #dedede;
+    padding: 0px 8px;
+    border-radius: 4px;
     margin: auto;
 }
