@@ -1,12 +1,12 @@
 @font-face {
     font-family: "Commit Mono";
-    src: url("../fonts/CommitMono-VariableFont.woff2");
+    src: url("/fonts/CommitMono-VariableFont.woff2");
     font-weight: 400;
 }
 
 @font-face {
     font-family: "IBM Plex Mono";
-    src: url("../fonts/IBMPlexMono-Regular.ttf");
+    src: url("/fonts/IBMPlexMono-Regular.ttf");
 }
 
 body {
