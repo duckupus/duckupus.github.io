@@ -9,6 +9,12 @@
     src: url("/fonts/IBMPlexMono-Regular.ttf");
 }
 
+html {
+    max-width: 1050px;
+    padding-left: 2%;
+    padding-right: 3%;
+    margin: auto;
+}
 body {
     font-family: "Commit Mono", monospace;
     text-align: center;
@@ -17,11 +23,6 @@ body {
     margin: auto;
 }
 
-#container {
-    margin: auto;
-    max-width: 1000px;
-    width: 100%;
-}
 
 header {
     padding: 5px;
