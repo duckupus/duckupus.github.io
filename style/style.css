@@ -15,6 +15,7 @@ html {
     padding-right: 3%;
     margin: auto;
 }
+
 body {
     font-family: "Commit Mono", monospace;
     text-align: center;
@@ -23,6 +24,27 @@ body {
     margin: auto;
 }
 
+h1 {
+    color: #e1e3e4;
+}
+
+h2 {
+    color: #d1d2d4;
+}
+
+h3 {
+    color: #c9cacc;
+}
+
+h4 {
+    color: #bcbdbf;
+}
+h5 {
+    color: #babbbd;
+}
+h6 {
+    color: #b8b9bb;
+}
 
 header {
     padding: 5px;
