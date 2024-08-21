@@ -27,16 +27,16 @@ th, td {
 code {
     font-family: "IBM Plex Mono", monospace;
     color: #00B3B3;
-    background-color: #1c1f1f;
 }
 
-.codeblock {
+pre code {
     font-family: "IBM Plex Mono", monospace;
     display: block;
     box-sizing: border-box;
-    color: #00B3B3;
+    border: 1px solid #0aa;
+    border-radius: 4px;
     background-color: #1c1f1f;
-    padding: 1px 1px;
+    padding: 3px 3px;
 }
 
 blockquote {
