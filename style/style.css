@@ -39,11 +39,22 @@ h3 {
 h4 {
     color: #bcbdbf;
 }
+
 h5 {
     color: #babbbd;
 }
+
 h6 {
     color: #b8b9bb;
+}
+
+body > h1,
+body > h2,
+body > h3,
+body > h4,
+body > h5,
+body > h6 {
+    border-bottom: solid #bababa;
 }
 
 header {
