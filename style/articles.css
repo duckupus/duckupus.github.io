@@ -1,9 +1,4 @@
 
-@font-face {
-    font-family: "Monaspace Neon";
-    src: url("/fonts/MonaspaceNeonVarVF.woff");
-}
-
 body {
     text-align: left;
 }
@@ -43,8 +38,18 @@ blockquote {
     border-left: 2px solid #d8d8da;
     color: #dedede;
     padding: 0px 8px;
-    border-radius: 4px;
     margin: auto;
+}
+
+blockquote > h1,
+blockquote > h2,
+blockquote > h3,
+blockquote > h4,
+blockquote > h5,
+blockquote > h6,
+blockquote > p {
+    margin-top: 2px;
+    margin-bottom: 2px;
 }
 
 strong {
