@@ -25,14 +25,14 @@ html {
 body {
     font-family: "Commit Mono", monospace; /* */
     text-align: center;
-    background-color: #111212;
-    color: #e4e6e7;
+    background-color: #212222;
+    color: #c4c6c7;
     margin: auto;
 }
 
 
 p {
-    line-height: 1.5;
+    line-height: 1.15em;
 }
 
 
@@ -42,7 +42,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: #f1f3f4;
+    color: #e1e3e4;
 }
 
 body > h1,
