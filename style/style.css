@@ -11,6 +11,17 @@
     font-variation-settings: default;
 }
 
+:root {
+    --main-text-colour: #c4c6c7;
+    --main-background-colour: #212222;
+    --header-colour: #e1e3e4;
+}
+
+::selection {
+    color: var(--main-background-colour);
+    background-color: var(--main-text-colour);
+}
+
 code {
     font-family: "Monaspace Neon";
 }
@@ -25,9 +36,13 @@ html {
 body {
     font-family: "Commit Mono", monospace; /* */
     text-align: center;
-    background-color: #212222;
-    color: #c4c6c7;
+    background-color: var(--main-background-colour);
+    color: var(--main-text-colour);
     margin: auto;
+}
+
+main > ul{
+    text-align: left;
 }
 
 
@@ -42,7 +57,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: #e1e3e4;
+    color: var(--header-colour);
 }
 
 body > h1,
