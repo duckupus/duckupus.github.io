@@ -1,7 +1,7 @@
 
 body {
     text-align: left;
-    letter-spacing: -0.01em;
+    /*letter-spacing: -0.01em;*/
 }
 table.center {
     margin-right: auto;
@@ -19,6 +19,10 @@ th, td {
     border-collapse: collapse;
 }
 
+p {
+    line-height: 1.1em;
+    margin: 1rem 0 1rem;
+}
 
 code {
     font-family: "Monaspace Neon", monospace;

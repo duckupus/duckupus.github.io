@@ -12,9 +12,9 @@
 }
 
 :root {
-    --main-text-colour: #c4c6c7;
+    --main-text-colour: #e1e3e4;
     --main-background-colour: #212222;
-    --header-colour: #e1e3e4;
+    --header-colour: #c4c6c7;
 }
 
 ::selection {
@@ -46,11 +46,6 @@ main > ul{
 }
 
 
-p {
-    line-height: 1.15em;
-}
-
-
 h1,
 h2,
 h3,
@@ -74,13 +69,13 @@ header {
     text-align: center;
 }
 
-
-nav ul {
-    list-style: none;
+.box {
+    display: flex;
+    justify-content: center;
     padding: 10px;
 }
 
-nav li {
+.box > * {
     display: inline-block;
     margin: 8px;
 }
@@ -90,7 +85,7 @@ a {
     font-weight: bold;
 }
 
-header nav ul li a {
+header nav div div a {
     text-decoration: none;
 }
 
