@@ -112,36 +112,3 @@ footer {
   color: red;
 }
 
-
-tr.ani {
-    transition: transform ease 0.1s;
-}
-
-tr.ani:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-    transform: translate(-1px, -1px);
-}
-
-article {
-    background-color: #404040;
-    border-radius: 16px;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    margin: 1%;
-    display: block;
-    transition: transform ease 0.5s;
-}
-
-article.a {
-    display: inline;
-    width: auto;
-    align-items: baseline;
-}
-
-article:not(:last-of-type) {
-    margin-bottom: 9px;
-}
-
-article:hover {
-    background-color: #3e3e3e;
-}
