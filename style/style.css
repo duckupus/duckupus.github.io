@@ -1,13 +1,13 @@
 @font-face {
     font-family: "Commit Mono";
-    src: url("/fonts/CommitMono-VariableFont.woff2");
+    src: url("../fonts/CommitMono-VariableFont.woff2");
     font-variation-settings: default;
     font-feature-settings: "cv05", "cv08", "cv10";
 }
 
 @font-face {
     font-family: "Monaspace Neon";
-    src: url("/fonts/MonaspaceNeonVarVF.woff");
+    src: url("../fonts/MonaspaceNeonVarVF.woff");
     font-variation-settings: default;
 }
 
